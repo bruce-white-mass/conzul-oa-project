@@ -1,0 +1,17 @@
+4 lines read
+4/4 lines processed (100%)
+4 valid lines
+4 OA documents found (100%)
+0 errors
+0 DOIs not found
+0 DOIs outside year range
+0 lines not executed
+0 additional Sherpa/Romeo records found
+
+Input file	sampledoilist.csv
+Web of Science file:	samplewosfile.csv
+Scopus file:	samplescopusfile.csv
+Repository address:	mro.massey.ac.nz
+Web of Science institutional address:	Massey Univ
+Scopus institutional address	Massey University
+Year span:	2018-2018
