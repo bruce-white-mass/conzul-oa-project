@@ -351,6 +351,8 @@ with open(of1, 'w', newline = '',encoding = 'utf-8-sig') as outputfile:
 
         wosdata = csv.DictReader(open(wosfile))
         for line in wosdata:
+
+            
             
             wosdoi = line['DI']
             wosauthors = line['C1']
@@ -1499,7 +1501,8 @@ with open(of1, 'w', newline = '',encoding = 'utf-8-sig') as outputfile:
                                             print('Requesting Sherpa/Romeo data')
 
                                             #sherpasearchstring = 'http://www.sherpa.ac.uk/romeo/api29.php?issn = '+issn+'&ak = '+sherpakey
-                                            sherpasearchstring1 =  'https://v2.sherpa.ac.uk/cgi/retrieve_by_id?item-type=publication&api-key=78C20DAE-3FCD-11EB-B205-C1BFDEE5E2BE&format=Json&identifier='+issn
+                                            #sherpasearchstring1 =  'https://v2.sherpa.ac.uk/cgi/retrieve_by_id?item-type=publication&api-key=78C20DAE-3FCD-11EB-B205-C1BFDEE5E2BE&format=Json&identifier='+issn
+                                            sherpasearchstring1 =  'https://v2.sherpa.ac.uk/cgi/retrieve_by_id?item-type=publication&api-key='+sherpakey+'&format=Json&identifier='+issn
                                             
                                             sherpasearch = requests.get(sherpasearchstring1,timeout=(10,20))
                                             sherpaapidata =   str(sherpasearch.content)
