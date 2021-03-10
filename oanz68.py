@@ -1470,9 +1470,7 @@ with open(of1, 'w', newline = '',encoding = 'utf-8-sig') as outputfile:
                                             potentialaam = sherpaentry[4]
                                             potentialpdf = sherpaentry[5]
                                             sherpalink = sherpaentry[6]
-                                            print(sherpaentry)
-                                            print(postarchiving)
-                                            print(postembargo)
+                                            
                                             sherpafound = 'Yes'
                                         
                                         else:
@@ -1533,7 +1531,7 @@ with open(of1, 'w', newline = '',encoding = 'utf-8-sig') as outputfile:
                                                         accepteddata =  sherpadata[acceptedstart:acceptedend]
                                                         #print(accepteddata)
 
-                                                        if ('Institutional Repository' in accepteddata or 'Any Website' in accepteddata or 'Non-Commercial Repository' in accepteddata) and 'Prerequisite' not in accepteddata and 'Open Access fee' not in accepteddata:
+                                                        if ('Institutional Repository' in accepteddata or 'Any Website' in accepteddata or 'Non-Commercial Repository' in accepteddata or 'Any Repository' in accepteddata) and 'Prerequisite' not in accepteddata and 'Open Access fee' not in accepteddata:
                                                             
 
                                                             #acceptedinrepositoryallowed =  'y'
@@ -1579,7 +1577,7 @@ with open(of1, 'w', newline = '',encoding = 'utf-8-sig') as outputfile:
                                                     publisheddata =  sherpadata[publishedstart:publishedend]
                                                     
 
-                                                    if ('Institutional Repository' in publisheddata or 'Any Website' in publisheddata or 'Non-Commercial Repository' in publisheddata) and 'Prerequisite' not in publisheddata and 'Open Access fee' not in publisheddata:
+                                                    if ('Institutional Repository' in publisheddata or 'Any Website' in publisheddata or 'Non-Commercial Repository' in publisheddata or 'Any Repository' in publisheddata) and 'Prerequisite' not in publisheddata and 'Open Access fee' not in publisheddata:
                                                         
 
                                                         #publishedinrepositoryallowed =  'y'
