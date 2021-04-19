@@ -1,0 +1,12 @@
+Information,Source
+"Metadata: author(s), title, journal, ISSN, etc.",Unpaywall API
+Open or closed,Unpaywall API
+"Type of access (Gold, Hybrid, Green, Closed, etc.)",Unpaywall API
+Reprint/corresponding author,Web of Science and Scopus (CSV file)
+Funders,Web of Science and Scopus (CSV file)
+URLs of all repository versions,Unpaywall API
+"Type of ‘best open version’: published, preprint, postprint",Unpaywall API
+APC/No APC,DOAJ (CSV file)
+,GitHub site of  Lisa Matthias (Freie Universität Berlin) - github.com/lmatthia/publisher-oa-portfolios
+Journal and publisher archiving rules and embargo periods,Sherpa/Romeo API
+Citations,Crossref API
